@@ -18,21 +18,19 @@ To get started, you will need to clone this assignment repository to your local 
 
 2.  **Open Your Terminal or Command Prompt:** Navigate to the directory where you want to save the assignment files.
 
-3.  **Clone the Repository:** Use the following command, replacing `<repository_url>` with the actual URL of the assignment repository:
+3.  **Clone the Repository:** Use the following command:
 
     ```bash
-    git clone <repository_url>
+    git clone git@github.com:Moringa-SDF-PT10/git-dom.git
     ```
 
-    This will create a new directory containing the assignment files (`index.html`, `styles.css`, `main.js`).
+    This will create a new directory containing the assignment files (`index.html`, `styles.css`, `main.js`, `README.md`).
 
 4.  **Navigate to the Assignment Directory:** Change your current directory to the newly created assignment folder:
 
     ```bash
-    cd <repository_name>
+    cd git-dom
     ```
-
-    Replace `<repository_name>` with the name of the directory that was created (usually the same as the repository name).
 
 ## Creating and Checking Out Your Group Branch
 
@@ -91,4 +89,4 @@ Once you have completed all the tasks in the `main.js` file:
     git push origin group03
     ```
 
-Your work will then be available in your group's branch on the remote repository for grading. Good luck!
+Your work will then be available in your group's branch on the remote repository for grading (`DUE: 05-APR-2025 11:59PM EAT (GMT+3)`). Happy Coding!
