@@ -112,3 +112,5 @@ while(firstChild){
 
 // 3.3 (Alternative): ...remove the last child element of the unordered list.
 //    Hint: DOM elements have a method to remove their last child.
+
+.....
