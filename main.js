@@ -61,6 +61,11 @@ console.log(firstChild)
 // 3.3: Use a loop (e.g., a `while` loop) to repeatedly remove the first child element of the unordered list until it has no more children.
 //    Hint: DOM elements have a method to remove a child element. Be careful with how the DOM updates as you remove elements.
 
+//==========A While loop for the above=============
+// while(firstChild){
+//     featureList.removeChild(firstChild)
+// }
+
 // Alternatively (more efficient approach for step 3):
 
 // 3.1 (Alternative): Select the unordered list element (<ul>) within the section with the ID 'features'.
