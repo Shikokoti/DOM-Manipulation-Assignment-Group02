@@ -56,9 +56,13 @@ let className = paragraph ? paragraph.className : "";
 // 3.1: Select the unordered list element (<ul>) within the section with the ID 'features' using an appropriate DOM method.
 //    Hint: You might need to select the 'features' section first and then find the <ul> within it.
 
+let featureSelection =document.getElementById("features");
+let featureList=featureSelection.querySelector("ul");
+
 // 3.2: Get a reference to the first child element of the selected unordered list.
 //    Hint: DOM elements have properties to access their first child.
-
+let firstChild = featureList.firstElementChild
+console.log(firstChild)
 // 3.3: Use a loop (e.g., a `while` loop) to repeatedly remove the first child element of the unordered list until it has no more children.
 //======== A While Loop that removes both the first and last list items====
 // Remove First and Last item together
