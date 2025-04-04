@@ -18,18 +18,23 @@
 // 1.4: Add the CSS class you defined (e.g., 'highlighted') to the header element's class list.
 //    Hint: Look for methods to add classes to an element's class list.
 
-
 // TODO 2: Query the DOM and add an element that matches the existing styling
 
 // 2.1: Select the section with the ID 'overview' using an appropriate DOM method.
 //    Hint: Look for methods that select elements by their ID.
 
+let overview = document.getElementById("overview");
+
 // 2.2: Query the DOM to find an existing element within the 'overview' section that has a specific style.
 //    For example, find the first paragraph element (<p>) within the 'overview' section.
 //    Hint: Look for methods that select elements based on their tag name or other selectors within a specific parent.
 
+let paragraph = overview.querySelector("p");
+
 // 2.3: Get the class name (or names) of the element you found in the previous step.
 //    Hint: DOM elements have a property that represents their classes.
+
+let className = paragraph ? paragraph.className : "";
 
 // 2.4: Create a new paragraph element (<p>) using an appropriate DOM method.
 //    Hint: Look for methods to create new HTML elements.
@@ -42,7 +47,6 @@
 
 // 2.7: Append the newly created and styled paragraph element to the 'overview' section.
 //    Hint: Look for methods to add a child element to a parent element.
-
 
 // TODO 3: Query the DOM and remove child elements
 
