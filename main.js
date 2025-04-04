@@ -57,7 +57,17 @@ let className = paragraph ? paragraph.className : "";
 //    Hint: DOM elements have properties to access their first child.
 
 // 3.3: Use a loop (e.g., a `while` loop) to repeatedly remove the first child element of the unordered list until it has no more children.
-//    Hint: DOM elements have a method to remove a child element. Be careful with how the DOM updates as you remove elements.
+//======== A While Loop that removes both the first and last list items====
+// Remove First and Last item together
+while (firstItem) {
+    if (firstItem) {
+        featureList.removeChild(firstItem);
+    }
+    if (lastItem) {
+        featureList.removeChild(lastItem);
+    }
+}
+
 
 // Alternatively (more efficient approach for step 3):
 
@@ -65,6 +75,12 @@ let className = paragraph ? paragraph.className : "";
 
 // 3.2 (Alternative): While the unordered list has at least one child element...
 //    Hint: DOM elements have a property to check the number of their children.
+let lastItem = featureList.lastElementChild
+console.log(lastItem)
 
 // 3.3 (Alternative): ...remove the last child element of the unordered list.
-//    Hint: DOM elements have a method to remove their last child.
+
+//======== A While Loop that removes both the last list item====
+//while (lastItem) {
+//    featureList.removeChild(lastItem);
+//}
