@@ -36,11 +36,14 @@ let paragraph = overview.querySelector("p");
 
 let className = paragraph ? paragraph.className : "";
 
+
 // 2.4: Create a new paragraph element (<p>) using an appropriate DOM method.
 //    Hint: Look for methods to create new HTML elements.
 
+
 // 2.5: Set the text content of the newly created paragraph element to something like "This is a new paragraph with the same styling."
 //    Hint: DOM elements have a property to set their inner text.
+
 
 // 2.6: Add the same class name (or names) you retrieved in step 2.3 to the newly created paragraph element's class list.
 //    Hint: Look for methods to add classes to an element's class list.
